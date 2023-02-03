@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta name="keyword" content="Python,Java,JavaScript">
+    <meta name="description" content="Landing Page">
+    <!--Fonts Google-->
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
+    rel="stylesheet">
+    <!--Fonts Awesome-->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--Global-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Landing Page</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#training">Training</a></li>
+                    <li><a href="#courses">Courses</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </header>
+    <section id="home">
+        <img src="images/profilepicture.jpg" alt="Profile Picture" width="300px" height="300px">
+        <div class="name">
+            <h2 class="heading-large">Name</h2>
+            <p>Description</p>
+        </div>
+        <a href="#courses" class="btn btn-primary ">Go Courses</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Training</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>In-Class Training</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Online Content</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Conferences</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, possimus.</p>
+            </article>
+        </div>
+    </section>
+    <section id="courses">
+        <h3 class="text-center heading-medium">Courses</h3>
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/Python.jpg" alt="Python" width="300" height="300">
+                        <span>90% Discount</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Python Developer Course
+                        </div>
+                        <div class="description">
+                            Advanced Programming From Scratch
+                        </div>
+                        <div class="instructor">
+                            Name
+                        </div>
+                        <div class="rating">
+                            4.6
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact Me</h4>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    name="email" 
+                    id="email" 
+                    placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea 
+                    name="message" 
+                    id="message" 
+                    class="form-control" 
+                    rows="5"
+                    placeholder="Message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Send</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
